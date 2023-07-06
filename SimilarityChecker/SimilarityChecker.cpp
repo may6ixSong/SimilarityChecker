@@ -4,7 +4,7 @@ using namespace std;
 class SimilarityChecker
 {
 public:
-	float getLengthPoint(string input1, string input2)
+	float getLengthPoint(const string& input1, const string& input2)
 	{
 		int input1_length = input1.size();
 		int input2_length = input2.size();
