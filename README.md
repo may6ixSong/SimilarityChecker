@@ -1,2 +1,5 @@
-# SimilarityChecker
-TDD 실습 SimilarityChecker
+## SimilarityChecker
+------
+
+SimilarityChecker
+TDD KATA
