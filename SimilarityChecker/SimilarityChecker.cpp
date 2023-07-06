@@ -13,7 +13,6 @@ public:
 		else if (input1_length >= input2_length * 2
 			|| input1_length * 2 <= input2_length) return 0;
 
-		// 부분 점수
 		if (input1_length > input2_length)
 			return getPartPoint(input1_length, input2_length);
 		else
