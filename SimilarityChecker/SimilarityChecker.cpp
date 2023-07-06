@@ -5,7 +5,7 @@ using namespace std;
 class SimilarityChecker
 {
 public:
-	int getAlphaPoint(string input1, string input2)
+	int getAlphaPoint(const string& input1, const string& input2)
 	{
 		set<char> Alphabet;
 		for(char ch : input1)
@@ -29,7 +29,7 @@ public:
 		return (40 * sameCnt) / totalCnt;
 	}
 
-	bool checkCharHave(string input, char checkAlphabet)
+	bool checkCharHave(const string& input, char checkAlphabet)
 	{
 		for(char ch : input)
 		{
